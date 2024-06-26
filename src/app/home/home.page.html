@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title >
+      App BMI
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding" [fullscreen]="true">
+ <ion-card color="danger" class="ion-padding"> 
+  <img src="../../assets/01.img.png"/>
+  <ion-input label="ชื่อภาพ" color="light"></ion-input>
+  <br>
+  <div class="ion-text-center">
+  <ion-button color="dark" size="large" expand="block" shape="round">ตกลง</ion-button>
+<ion-button size="large" expand="block" shape="round"(click)="gotologin()">
+  <ion-icon name="add-outline" slot="start"></ion-icon>
+add
+</ion-button>
+</div>
+ </ion-card>
+</ion-content>
